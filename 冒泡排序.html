@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // 先创建一个数组
+        // 数组三种创建的方式 一是字面量的方法 var arr=[1,45,6,89,14] 2是构造函数的方法var arr=new Array{1,45,33,22,88};
+        // 3是构造函数的方法去创建，但是不赋值var arr=new Array(); arr[0]=1;
+        var arr=[1,34,67,33,22];
+        // 创建一个外层的函数，并且提供一个返回值，把排序好的数组给返回
+        function bubbling(arr){
+            // 创建外层的循环。来规定循环的次数
+            for(var i=0;i<arr.length;i++){
+                for (let j = 0; j < arr.length-i-1; j++) {
+            var sum=null;
+                    if (arr[j]>arr[j+1]) {
+                        sum=arr[j];
+                        arr[j]=arr[j+1];
+                        arr[j+1]=sum;
+                    }
+                    
+                }
+            }
+                return ar
+        var shuzu=bubbling(arr);
+        document.write(arr);
+
+    </script>
+</body>
+</html>
