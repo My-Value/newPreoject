@@ -1,3 +1,3 @@
 # newPreoject
 the test
-new AP
+new A
